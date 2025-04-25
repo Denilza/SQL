@@ -4,9 +4,6 @@ Este repositório reúne meus estudos práticos e teóricos em **SQL (Structured
 
 ---
 
-## 🗂️ Estrutura do repositório
-
-├── 01_comandos_basicos.sql ├── 02_filtros_e_ordenacoes.sql ├── 03_joins.sql ├── 04_subqueries.sql ├── 05_analise_enem.sql ├── 06_projetos_finais/ │ ├── analise_vendas.sql │ └── controle_despesas.sql └── README.md
 
 
 ---
