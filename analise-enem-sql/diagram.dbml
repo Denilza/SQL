@@ -1,0 +1,37 @@
+Table estado {
+  id_estado int [pk]
+  sigla varchar
+  nome varchar
+}
+
+Table genero {
+  id_genero int [pk]
+  descricao varchar
+}
+
+Table escola {
+  id_escola int [pk]
+  tipo varchar
+}
+
+Table renda {
+  id_renda int [pk]
+  faixa varchar
+}
+
+Table enem {
+  id_aluno int [pk]
+  id_estado int
+  id_genero int
+  id_escola int
+  id_renda int
+  nota_matematica float
+  nota_redacao float
+  nota_geral float
+  presenca varchar
+
+  Ref: id_estado > estado.id_estado
+  Ref: id_genero > genero.id_genero
+  Ref: id_escola > escola.id_escola
+  Ref: id_renda > renda.id_renda
+}
